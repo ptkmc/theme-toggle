@@ -621,12 +621,14 @@ pre tt:after {
   }
 }
 
-body.light-mode {
-  background-color: #fff;
-  color: #333;
+body {
   transition: background-color 0.3s ease;
 }
 body.dark-mode {
-  background-color: #1a1919;
-  color: #999;
+  background-color: #282c35;
+  color: #fff;
+}
+
+body.dark-mode a {
+  color: #B38CD9;
 }
